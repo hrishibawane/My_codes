@@ -21,6 +21,6 @@ int main()
         cout << "Oops! Little ahead!\n";
     else
         cout << "Oops! Little behind!\n";
-
+        
     return 0;
 }
