@@ -7,7 +7,7 @@ void bubble(char s[20][20], int n)
 	char temp[20];
 	for(int i=0; i<n-1; i++)
 		for(int j=0; j<n-i-1; j++)
-			if(strcmp(s[j], s[j+1])<0)
+			if(strcmp(s[j], s[j+1])>0)
 			{
 				strcpy(temp, s[j]);
 				strcpy(s[j], s[j+1]);
